@@ -2,10 +2,7 @@
 Vagrant box for Ruby on Rails
 
 ## Clone the repository and vagrant init
-vagrant init -m rails
-
-## Change Vagrantfile to add
-    config.vm.network "private_network", ip: "192.168.33.10"
+   vagrant init -m rails
 
 ## vagrant up
     vagrant up
